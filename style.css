@@ -1,0 +1,90 @@
+h1 { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 50px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px;
+	text-align: left } 
+h2 { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 18px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px;
+	text-align: center } 
+h3 { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 14px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px;
+	text-align: center } 
+p { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 16px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 20px;
+	text-align: left } 
+blockquote { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 21px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 30px;
+	text-align: center } 
+pre { font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 13px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 18.5714px;
+	text-align: center }
+
+.hero {
+  padding: 20px;
+  margin: auto;
+  width: 40%;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+}
+
+.hero p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: center;
+}
+
+.body p {
+	line-height: 1.5;
+  display: inline-block;
+  vertical-align: left;
+}
+
+.header {
+	border: 0;
+  padding: 20px;
+  margin: auto;
+  width: 80%;
+  position: absolute;
+  left: 100%;
+  top: 7%;
+  transform: translate(-50%, -50%);
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link and selected link */
+a:hover {
+  color: black;
+  font-weight: 700;
+}
