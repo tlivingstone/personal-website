@@ -26,25 +26,38 @@ p { font-family: "Andale Mono", AndaleMono, monospace;
 	font-weight: 400; 
 	line-height: 20px;
 	text-align: left } 
-blockquote { font-family: "Andale Mono", AndaleMono, monospace; 
-	font-size: 21px; 
+
+ul {
+
+	font-family: "Andale Mono", AndaleMono, monospace; 
+	font-size: 16px; 
 	font-style: normal; 
 	font-variant: normal; 
 	font-weight: 400; 
-	line-height: 30px;
-	text-align: center } 
-pre { font-family: "Andale Mono", AndaleMono, monospace; 
-	font-size: 13px; 
-	font-style: normal; 
-	font-variant: normal; 
-	font-weight: 400; 
-	line-height: 18.5714px;
-	text-align: center }
+	line-height: 20px;
+	text-align: left
+
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+}
+
+ul li a:hover {
+  font-weight: 700;
+}
 
 .hero {
   padding: 20px;
   margin: auto;
-  width: 40%;
+  width: 100%;
   position: absolute;
   left: 20%;
   top: 10%;
@@ -62,29 +75,20 @@ pre { font-family: "Andale Mono", AndaleMono, monospace;
   vertical-align: left;
 }
 
-.header {
+nav {
 	border: 0;
-  padding: 20px;
+  padding: 0px;
   margin: auto;
-  width: 80%;
-  position: absolute;
-  left: 100%;
+  width: 100%;
+  left: 110%;
   top: 7%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  position: absolute;
+  transform: translate(-55%, -50%);
 }
 
 /* unvisited link */
-a:link {
+a:link, a:visited {
   color: black;
 }
-
-/* visited link */
-a:visited {
-  color: black;
-}
-
-/* mouse over link and selected link */
-a:hover {
-  color: black;
-  font-weight: 700;
-}
+*/
