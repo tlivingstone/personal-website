@@ -1,8 +1,11 @@
 {
   "name": "webdevformakers-basic-template",
   "version": "0.1.0",
+  "homepage": " https://tlivingstone.github.io/personal-website/",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -19,6 +22,7 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.18.0",
     "eslint-config-next": "12.1.6",
+    "gh-pages": "^4.0.0",
     "typescript": "4.7.4"
   }
 }
