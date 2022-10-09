@@ -12,13 +12,24 @@ export default function Index() {
                     VC by day, hacker by night. I lead founder fellowship programs at 
                     <span id = "bolder"> Soma Capital</span> and
                     <span id = "bolder"> Envision Accelerator</span>, 
-                    document my learnings on my 
-                    <span id = "bolder"> writing </span>
-                    blog, design &amp; build out 
-                    <span id = "bolder"> product </span> 
-                    ideas, and grow communities in SF &amp; beyond.
+                    document my learnings through writing, design &amp; build out 
+                    product ideas, and grow communities in SF &amp; beyond.
                 </p>
-                <img src = "/ocean.jpg" alt = "pic of ocean"/>
+                {/* <img src = "/ocean.jpg" alt = "pic of ocean"/> */}
+                <hr></hr>
+
+                <p>
+                    👋 
+                    <a href = "https://twitter.com/wetarynitup"> Twitter</a>, 
+                    <a href = "https://www.linkedin.com/in/taryn-e-livingstone/"> LinkedIn</a><br></br>
+                    🖊 
+                    <a href = "https://tarynitup.substack.com/"> Substack</a>,
+                    <a href = "https://medium.com/@t-liv"> Medium</a><br></br>
+                    🛠 
+                    <a href = "http://www.prodolab.com/"> Prödo Lab</a><br></br>
+                    💭 
+                    <a href = "https://tarynl.notion.site/Taryn-Labs-88b4495ce25641ffbff971a7070c3afc"> Taryn Labs</a><br></br>
+                </p>
             </div>
             {/* <div id = "tab-section">
             <button className = "tab" onClick={() => setTab("about")}>About</button>
