@@ -10,8 +10,8 @@ export default function Index() {
                 <h1>Taryn Livingstone</h1>
                 <p>
                     VC by day, hacker by night. I lead founder fellowship programs at 
-                    <a href = "https://www.somacap.com/"><span id = "bolder"> <span class="underline">Soma Capital</span></span></a> and
-                    <a href = "https://www.envisionaccelerator.com/"><span id = "bolder"> <span class="underline">Envision Accelerator</span></span></a>, 
+                    <a href = "https://www.somacap.com/"><span id = "bolder"> <span className="underline">Soma Capital</span></span></a> and
+                    <a href = "https://www.envisionaccelerator.com/"><span id = "bolder"> <span className="underline">Envision Accelerator</span></span></a>, 
                     document my learnings through writing, design &amp; build out 
                     product ideas, and grow communities in SF &amp; beyond.
                 </p>
@@ -20,15 +20,15 @@ export default function Index() {
 
                 <p>
                     👋 
-                    <a href = "https://twitter.com/wetarynitup"> <span class="underline">Twitter</span></a>, 
-                    <a href = "https://www.linkedin.com/in/taryn-e-livingstone/"> <span class="underline">LinkedIn</span></a><br></br>
+                    <a href = "https://twitter.com/wetarynitup"> <span className="underline">Twitter</span></a>, 
+                    <a href = "https://www.linkedin.com/in/taryn-e-livingstone/"> <span className="underline">LinkedIn</span></a><br></br>
                     🖊 
-                    <a href = "https://tarynitup.substack.com/"> <span class="underline">Substack</span></a>,
-                    <a href = "https://medium.com/@t-liv"> <span class="underline">Medium</span></a><br></br>
+                    <a href = "https://tarynitup.substack.com/"> <span className="underline">Substack</span></a>,
+                    <a href = "https://medium.com/@t-liv"> <span className="underline">Medium</span></a><br></br>
                     🛠 
-                    <a href = "http://www.prodolab.com/"> <span class="underline">Prödo Lab</span></a><br></br>
+                    <a href = "http://www.prodolab.com/"> <span className="underline">Prödo Lab</span></a><br></br>
                     💭 
-                    <a href = "https://tarynl.notion.site/Taryn-Labs-88b4495ce25641ffbff971a7070c3afc"> <span class="underline">Taryn Labs</span></a><br></br>
+                    <a href = "https://tarynl.notion.site/Taryn-Labs-88b4495ce25641ffbff971a7070c3afc"> <span className="underline">Taryn Labs</span></a><br></br>
                 </p>
             </div>
             {/* <div id = "tab-section">
