@@ -19,7 +19,7 @@ export default function Index() {
                 <hr></hr>
 
                 <p>
-                    My digital homes:
+                    My digital homes and creations:
                 </p>
 
                 <p>
