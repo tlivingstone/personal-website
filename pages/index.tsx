@@ -19,14 +19,22 @@ export default function Index() {
                 <hr></hr>
 
                 <p>
+                    My digital homes:
+                </p>
+
+                <p>
                     👋 
-                    <a href = "https://twitter.com/wetarynitup"> <span className="underline">Twitter</span></a>, 
+                    <a href = "https://twitter.com/wetarynitup"> <span className="underline">Twitter</span></a><br></br>
+                    💼
                     <a href = "https://www.linkedin.com/in/taryn-e-livingstone/"> <span className="underline">LinkedIn</span></a><br></br>
                     🖊 
-                    <a href = "https://tarynitup.substack.com/"> <span className="underline">Substack</span></a>,
-                    <a href = "https://medium.com/@t-liv"> <span className="underline">Medium</span></a><br></br>
-                    🛠 
-                    <a href = "http://www.prodolab.com/"> <span className="underline">Prödo Lab</span></a><br></br>
+                    <a href = "https://tarynitup.substack.com/"> <span className="underline">Substack</span></a>
+                    <br></br>
+                    🐿️
+                    <a href = "https://www.quokkaventures.com/"> <span className="underline">Quokka Ventures</span></a>
+                    <br></br>   
+                    👩‍💻
+                    <a href = "https://www.productgals.com/"> <span className="underline">Product Gals</span></a><br></br>
                     💭 
                     <a href = "https://tarynl.notion.site/Taryn-Labs-88b4495ce25641ffbff971a7070c3afc"> <span className="underline">Taryn Labs</span></a><br></br>
                 </p>
